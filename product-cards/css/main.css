@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;500&display=swap');
+:root {
+      --primary-color: #4daf54;
+}
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      height: 100vh;
+      background: linear-gradient(to right, #4daf54, #3d8880);
+      font-family: "Poppins";
+}
+
+.card {
+      width: 320px;
+      height: 400px;
+      background-color: #272d40;
+      margin: 120px auto;
+      border-radius: 15px;
+      padding: 20px;
+      color: #fff;
+      position: relative;
+}
+
+.card-cart, 
+.card-cart{
+      font-size: 25px;
+      position: absolute;
+      top: 15px;
+      left: 20px;
+}
+
+.card-cart {
+      left: unset;
+      right: 20px;
+}
+
+.card-img{
+      width: 200px;
+      height: 200px;
+      transform: rotate(-7deg);
+      margin: 0 auto;
+}
+
+.card-img img {
+      width: 100%;
+      object-fit: cover;
+}
+
+.card-title,
+.card-price {
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-title {
+      color: var(--primary-color);
+}
+
+.card-price{
+
+}
+
+.card-size,
+.card-color {
+      display: flex;
+}
+
+.card-color{
+
+}
+
+.card-action{
+
+}
